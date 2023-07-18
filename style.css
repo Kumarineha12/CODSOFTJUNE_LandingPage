@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    width: 100%;
+    height: 100vh;
+    background: url(https://d585tldpucybw.cloudfront.net/sfimages/default-source/landing-pages/xamarin/telerik-tagit/banner.jpg?sfvrsn=5bbec8fd_5);
+    background-position:  20% 80%; 
+    background-size: cover;    
+}
+.nav {
+    width: 1200px;
+    height: 85px;
+    margin: auto;
+}
+.logo {
+    width: 250px;
+    float: left;
+    height: 85px;
+}
+.menu {
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li {
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.2s;
+}
+
+ul li a:hover {
+    color: rgb(179, 4, 100);
+}
+
+.get {
+    width: 200px;
+    float: left;
+    margin-left: 350px;
+}
+.btn {
+    width: 100%;
+    height: 40px;
+    background: rgb(255, 98, 0);
+    border: 2px solid orange;
+    margin-top: 13px;
+    font-size: 15px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: rgb(255, 200, 80);
+}
+
+.content {
+    width: 1200px;
+    height: auto;
+    color: #fff;
+    position: relative;
+    margin-left: 35px;
+}
+.content .para {
+    padding-left: 20px;
+    padding-bottom: 25px;
+    letter-spacing: 1.2px;
+    margin: auto;
+    font-size: 20px;
+}
+.content h1 {
+    padding-right: 500px;
+    letter-spacing: 1.2px;
+    padding-top: 15%;
+    margin: 25px;
+    font-size: 60px;
+}
+.btn1 {
+    width: 20%;
+    height: 40px;
+    background: rgb(255, 77, 0);
+    border: 2px solid orange;
+    margin-top: 13px;
+    font-size: 15px;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+.btn1:hover {
+    background-color: burlywood;
+}
+
+.course {
+    width: 50%;
+    text-align: center;
+    padding: 40px;
+}
+.course .cor1 {
+    color: #fff;
+}
+.course h1 {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+.row {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 180px;
+}
+.courseCol {
+    background-color: #1a43b5;
+    border-radius: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    margin: 8px;
+    color: #fff;
+}
+h3 {
+    text-align: center;
+    font-weight: 500;
+    margin: 5px 0;
+    font-family: 'Poppins', sans-serif;
+}
+.courseCol:hover {
+    background: rgba(177, 244, 8, 0.858);
+}
+
+.form {
+    width: 330px;
+    height: 470px;
+    background: url(https://media.istockphoto.com/id/1312418673/photo/security-cyber-login-computer-digital-internet-password-privacy-solution-technology-attack.jpg?b=1&s=612x612&w=0&k=20&c=Calqlj5Sc23Ed0FOtMv726Kb6IKyXYNqbuIRgbgqf6o=);
+    position: absolute;
+    top: 15%;
+    left: 870px;
+    border-radius: 10px;
+    padding: 20px;
+}
+form .btn {
+    width: 250px;
+    margin-bottom: 20px;
+}
+.form input {
+    width: 250px;
+    height: 35px;
+}
+.form .name {
+    color: #fff;
+}
+.form .cond {
+    color: #ff00bf;
+    text-decoration: none;
+}
